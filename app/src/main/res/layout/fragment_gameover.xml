@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".AboutFragment">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/pokemon_gameover"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="vertical">
+
+            <EditText
+                    android:id="@+id/etPlayerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hintTypeYourName"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="20dp">
+
+            <!--
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            -->
+
+            <Button
+                    android:id="@+id/btnPlayGame"
+                    android:background="@color/colorBackgroundButton"
+                    android:textColor="@color/colorTextButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/playGame"/>
+
+            <Button
+                    android:id="@+id/btnGoHome"
+                    android:background="@color/colorBackgroundButton"
+                    android:textColor="@color/colorTextButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/labelHome"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

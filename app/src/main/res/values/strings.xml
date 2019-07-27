@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string name="loading_game">Carregando...</string>
+    <string name="playGame">Jogar</string>
+    <string name="rankingPlayers">Ranking</string>
+    <string name="aboutGame">Sobre</string>
+    <string name="exitGame">Sair</string>
+    <string name="version">1.0</string>
+    <string name="owner">Ronaldo Garcia</string>
+    <string name="createdBy">Produzido por: </string>
+    <string name="backHome">Voltar</string>
+    <string name="gameOrientation">Escolha um poder abaixo e tente ganhar da máquina!</string>
+    <string name="labelPoints">pts</string>
+    <string name="labelDefaultPoints">0</string>
+    <string name="labelMachine">Máquina</string>
+    <string name="labelPlayer">Você</string>
+    <string name="labelResultDefault">Default</string>
+    <string name="labelResultWin">Ganhou, mas foi só desta vez!</string>
+    <string name="labelResulDraw">Passou perto, mas empatamos desta vez!</string>
+    <string name="labelResultLost">Perdeu playboy!</string>
+    <string name="hintTypeYourName">Digite seu nome...</string>
+    <string name="labelPlayerName">Jogador</string>
+    <string name="labelRakingPoints">Pontos</string>
+    <string name="labelHome">Página Inicial</string>
+    <string name="labelRankingPlayerName">Default User Name</string>
+    <string name="rankingDescription">Acompanhe abaixo o ranking dos melhores jogadores em ordem crescente de maior pontuação</string>
+</resources>
