@@ -50,6 +50,16 @@
                 android:background="@color/colorBackgroundButton"
                 android:textColor="@color/colorTextButton"/>
 
+        <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:text="@string/labelLogout"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/colorBackgroundButton"
+                android:textColor="@color/colorTextButton"/>
+
     </LinearLayout>
 
 

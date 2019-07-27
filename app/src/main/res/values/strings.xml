@@ -4,7 +4,9 @@
     <string name="playGame">Jogar</string>
     <string name="rankingPlayers">Ranking</string>
     <string name="aboutGame">Sobre</string>
+    <string name="labelLogout">Sair</string>
     <string name="exitGame">Sair</string>
+    <string name="labelVersion">Versão</string>
     <string name="version">1.0</string>
     <string name="owner">Ronaldo Garcia</string>
     <string name="createdBy">Produzido por: </string>

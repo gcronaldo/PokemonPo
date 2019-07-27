@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import kotlinx.android.synthetic.main.fragment_main.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -29,6 +30,7 @@ class MainFragment : Fragment() {
         val goAbout = view.findViewById<Button>(R.id.btnAbout)
         val goRanking = view.findViewById<Button>(R.id.btnRanking)
         val playGame = view.findViewById<Button>(R.id.btnPlayGame)
+        val logout = view.findViewById<Button>(R.id.btnLogout)
 
         goAbout.setOnClickListener{
             val aboutFragment = AboutFragment()
@@ -54,6 +56,10 @@ class MainFragment : Fragment() {
             val transaction = manager!!.beginTransaction()
             transaction.replace(R.id.mainFragment, playGameFragment)
             transaction.commit()
+        }
+
+        logout.setOnClickListener{
+            System.exit(0)
         }
 
         return view
